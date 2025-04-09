@@ -9,12 +9,12 @@
       font-family: "Segoe UI", "Noto Naskh Arabic", "Tahoma", "Arial", sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f8f8;
+      background-color: #FFFFFF;
       color: #333;
     }
     header {
-      background-color: #0a0a23;
-      color: white;
+      background-color: #100F0E;
+      color: #CDAE5F;
       padding: 2rem;
       text-align: center;
     }
@@ -28,7 +28,8 @@
       margin: auto;
     }
     h2 {
-      color: #0a0a23;
+      color: #100F0E;
+      margin-bottom: 1rem;
     }
     .contact {
       background-color: #efefef;
@@ -36,7 +37,7 @@
       text-align: center;
     }
     .contact a {
-      color: #0a0a23;
+      color: #100F0E;
       text-decoration: none;
       font-weight: bold;
     }
@@ -45,46 +46,123 @@
       font-size: 0.9rem;
       color: #777;
       margin-top: 2rem;
+      padding: 1rem;
+      background-color: #f9f9f9;
+    }
+    /* Centering the icons */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 1rem;
+    }
+    .social-icons img {
+      width: 30px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .social-icons img:hover {
+      transform: scale(1.1);
+    }
+        /* Centering the icons */
+    .ebay-icon {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 1rem;
+    }
+    .ebay-icon img {
+      width: 100px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .ebay-icon img:hover {
+      transform: scale(1.1);
+    }
+    /* Add hover effect to LinkedIn icon */
+    footer img:hover {
+      transform: scale(1.1);
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Nawshard Gems</h1>
-    <p>Trusted Buyers and Sellers of Fine Gemstones</p>
+    <h1><img src="images/logo with name.png" alt="Nawshard Gems Logo" width="200" height="200"></h1>
+    <p>Trusted in Buying and Selling Exquisite Gemstones since 1980</p>
   </header>
 
   <section>
     <h2>About Us</h2>
     <p>
-      Founded by M.S.M. Nawshard and based in Ratnapura, Sri Lanka — Nawshard Gems is engaged in the buying and selling of high-quality gemstones, particularly blue sapphires, rubies, fancy sapphires, and semi-precious stones.
+      Founded and operated by M.S.M. Nawshard in Ratnapura, Sri Lanka, Nawshard Gems specializes in trading blue sapphires, rubies, emeralds, fancy sapphires, and semi-precious stones. The company focuses on quality, authenticity, and long-standing relationships.
     </p>
     <p>
-      We work with rough, cut, and polished stones — including heat-treated stones — and offer both individual pieces and curated lots. Nawshard Gems sources and trades gemstones primarily in Sri Lanka, Madagascar, East Africa, and Bangkok, with a growing interest in expanding to new international markets.
+      Trading actively in Sri Lanka, Madagascar, East African countries, and Bangkok, Nawshard Gems sources gemstones in both rough and cut & polished forms. Rough stones are often treated, cut, and polished to enhance their natural beauty and value. The company also deals in ready-to-sell stones, available as individual pieces or in selected lots, tailored to the needs of jewelers, collectors, and dealers.
     </p>
-  </section>
+    <p>
+      With a solid foundation in key gemstone markets, Nawshard Gems is now working to expand its reach to new international markets, continuing its mission to trade exceptional gemstones with integrity and expertise.
+    </p>
 
-  <section>
-    <h2>What We Offer</h2>
-    <ul>
-      <li>Blue Sapphires (rough and polished)</li>
-      <li>Rubies and other fancy sapphires</li>
-      <li>Heat-treated and natural stones</li>
-      <li>Semi-precious stones</li>
-      <li>Stone lots for wholesale buyers</li>
-    </ul>
+    <h2>Check our stock</h2>
+    <p>Discover our collection on eBay and get in touch with us through the links in the contact section below if something catches your eye. We’re open to price negotiations.</p>
+       <div class="ebay-icon">
+       <a href="https://www.ebay.com/usr/nawshardgems_1980" target="_blank">
+          <img src="images/bluesapphire.png" alt="Blue Sapphire" />
+        </a>
+	<a href="https://www.ebay.com/usr/nawshardgems_1980" target="_blank">
+          <img src="images/ruby.png" alt="Ruby" />
+        </a>
+	<a href="https://www.ebay.com/usr/nawshardgems_1980" target="_blank">
+          <img src="images/yellowsapphire.png" alt="Yellow Sapphire" />
+        </a>
+        <a href="https://www.ebay.com/usr/nawshardgems_1980" target="_blank">
+          <img src="images/ebay icon.png" alt="eBay" />
+        </a>
+	<a href="https://www.ebay.com/usr/nawshardgems_1980" target="_blank">
+          <img src="images/emerald.png" alt="eBay" />
+        </a>
+	<a href="https://www.ebay.com/usr/nawshardgems_1980" target="_blank">
+          <img src="images/catseye.png" alt="semi" />
+        </a>
+	<a href="https://www.ebay.com/usr/nawshardgems_1980" target="_blank">
+          <img src="images/alexandrite.png" alt="eBay" />
+        </a>
+      </div>
   </section>
 
   <section class="contact">
-    <h2>Contact</h2>
-    <p>📧 Email: <a href="mailto:contact@nawshardgems.com">contact@nawshardgems.com</a></p>
-    <p>📱 WhatsApp: <a href="https://wa.me/94712737023">+94 71 273 7023</a></p>
-    <p>📍 Based in Ratnapura, Sri Lanka</p>
+    <h2>Contact Us</h2>
+    <p> 
+      <a href="mailto:contact@nawshardgems.com">
+        contact@nawshardgems.com
+      </a>
+    </p>
+      <p><a href="tel:+94712737023">+94 71 273 7023</a></p>
+
+    <div class="social-icons">
+      <a href="https://wa.me/94712737023" target="_blank">
+        <img src="images/whatsapp icon.png" alt="WhatsApp" />
+      </a>
+      <a href="https://www.instagram.com/nawshardgems" target="_blank" rel="noopener noreferrer">
+        <img src="images/instagram icon.png" alt="Instagram" />
+      </a>
+      <a href="https://www.linkedin.com/company/nawshardgems" target="_blank" rel="noopener noreferrer">
+        <img src="images/linkedin icon.png" alt="LinkedIn" />
+      </a>
+    </div>
+
+    <p>📍 Based in 13/A, Zhaviya Road, Ratnapura, Sri Lanka</p>
   </section>
 
   <footer>
-    &copy; 2025 Nawshard Gems. All rights reserved.
+    &copy; 2025 Nawshard Gems. All rights reserved. <br>
+    Created by Nashath Naushard 
+    <a href="https://www.linkedin.com/in/nashath/" target="_blank">
+      <img src="images/linkedin icon.png" style="width:20px; border:none; cursor:pointer;" alt="LinkedIn" />
+    </a>
   </footer>
 
 </body>
